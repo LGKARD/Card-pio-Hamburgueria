@@ -173,7 +173,7 @@ checkoutBtn.addEventListener("click", function () {
 function checkOpen() {
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 18 && hora < 22;
+    return hora >= 13 && hora < 22;
 }
 
 const spanItem = document.getElementById("date-span")
